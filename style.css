@@ -29,7 +29,6 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 5rem;
-    border: 1px solid green;
 }
 
 .mid-section h2 {
@@ -43,9 +42,9 @@ body {
 }
 
 .welcome-page-image img {
-    max-width: 600px;
-    min-width: 500px;
-    width: 80%;
+    max-width: 400px;
+    /* min-width: 500px; */
+
 }
 
 /* CALL TO ACTION */

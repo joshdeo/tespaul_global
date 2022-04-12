@@ -129,41 +129,78 @@ video {
     max-width: 1170px;
 }
 
+/* CONTACT */
 
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 0, 3);;
+    width: 100%;
+    opacity: 80%;
+    margin-top: 5rem;
+    flex-direction: column;
+}
 
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+}
 
+.container h3 {
+    text-align: center;
+}
 
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+}
 
+.form-group input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(223, 0, 3);;
+    margin-top: 5px;
+}
 
+textarea {
+    resize: vertical;
+}
 
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+    background-color: rgb(223, 0, 3);;
+    color: white;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
 
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#status {
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: black;
+}
 
 
 

@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#">Brand</a> -->
-                <img src="./resources/images/tespaulGlobalLogo.png" alt="" class="navbar-logo">
+                <a href="index.html"><img src="./resources/images/tespaulGlobalLogo.png" alt="" class="navbar-logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,6 +43,37 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <h3>To place an order or to contact us fill out below</h3>
+            <form action="https://formspree.io/f/meqvewre" method="POST" id="my-form">
+
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class=".button" type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div id="status" class="success"></div>
+    </section>
 
     
 

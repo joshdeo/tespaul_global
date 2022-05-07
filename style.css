@@ -338,6 +338,7 @@ a:hover {
     }
 
     .call-to-action {
+        margin: auto;
         width: 100%;
         flex-direction: row;
         justify-content: space-around;

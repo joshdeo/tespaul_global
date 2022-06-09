@@ -134,6 +134,10 @@ video {
     height: 20rem;
 }
 
+.study-permit {
+    width: 70%;
+}
+
 .services-container p {
     padding: 10px;
     max-width: 1170px;
